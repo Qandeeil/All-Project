@@ -25,7 +25,7 @@ const Databases = [
         id: 4,
         image: Book4You,
         name: 'Book4You',
-        link: 'https://qandeeil-book.herokuapp.com/'
+        link: 'https://qandeeil-book4you.herokuapp.com/'
     },
 ]
 export default Databases;
