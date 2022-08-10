@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header-home-page {
+  background-color: #e4e2e2; }
+  .header-home-page .title {
+    position: relative;
+    background-color: #201E1F;
+    height: 60vh;
+    width: 100%; }
+    .header-home-page .title h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #69D9E9;
+      font-size: 5rem;
+      letter-spacing: .1rem; }
+  .header-home-page .content {
+    width: 65%;
+    margin: auto;
+    text-align: center; }
+    .header-home-page .content .title-content {
+      margin-top: 4rem; }
+      .header-home-page .content .title-content h1 {
+        font-size: 3rem;
+        letter-spacing: .1rem; }
+      .header-home-page .content .title-content span {
+        display: block;
+        width: 10%;
+        margin: 1rem auto;
+        border-bottom: 7px #69D9E9 solid;
+        border-radius: 15px; }
+    .header-home-page .content .projects {
+      display: inline-block;
+      width: 100%; }
+      .header-home-page .content .projects .content-project {
+        width: 30%;
+        display: inline-block;
+        margin: 1rem;
+        background-color: #fff;
+        box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: .4s; }
+        .header-home-page .content .projects .content-project img {
+          width: 100%;
+          height: 19vh; }
+        .header-home-page .content .projects .content-project a {
+          height: 3.2rem;
+          line-height: 3.2rem;
+          font-weight: bold;
+          font-size: 1.5rem;
+          text-decoration: none;
+          transition: .3s; }
+          .header-home-page .content .projects .content-project a:hover {
+            color: #4babb9; }
+        .header-home-page .content .projects .content-project:hover {
+          transform: scale(1.1); }
+
+::-webkit-scrollbar {
+  width: 13px; }
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 25px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #4babb9;
+  border-radius: 25px; }
